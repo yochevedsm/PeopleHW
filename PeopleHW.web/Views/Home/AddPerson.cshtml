@@ -1,0 +1,16 @@
+﻿
+<button class="btn btn-info" id="add-button">Add row</button>
+<form action="/home/AddPerson" method="post">
+    <div class="row col-md-12 mt-3">
+        <input type="text" name="people[0].FirstName" placeholder="FirstName" class="form-control col-md-3" />
+        <input type="text" name="people[0].LastName" placeholder="LastName" class="form-control col-md-3" />
+        <input type="text" name="people[0].Age" placeholder="Age" class="form-control col-md-3" />
+    </div>
+    <span id="span"></span>
+    <button class="btn btn-danger btn-lg btn-block mt-3">Add all</button>
+</form>
+
+@section Scripts {
+
+    <script src="~/js/JavaScript.js"></script>
+}
